@@ -5,6 +5,8 @@ metadata:
   name: vote-staging
   namespace: flux-system
 spec:
+  dependsOn:
+  - name: redis-staging
   healthChecks:
   - kind: Deployment
     name: vote
