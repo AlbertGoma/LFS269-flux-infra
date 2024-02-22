@@ -13,7 +13,7 @@ spec:
       author:
         email: flux@example.com
         name: flux
-      messageTemplate: '{{range .Updated.Images}}{{printLn .}}{{end}}'
+      messageTemplate: '{{range .Updated.Images}}{{println .}}{{end}}'
     push:
       branch: main
   interval: 1m0s
