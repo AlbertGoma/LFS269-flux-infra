@@ -2,7 +2,7 @@
 apiVersion: image.toolkit.fluxcd.io/v1beta2
 kind: ImageRepository
 metadata:
-  name: vote
+  name: result
   namespace: flux-system
 spec:
   exclusionList:
